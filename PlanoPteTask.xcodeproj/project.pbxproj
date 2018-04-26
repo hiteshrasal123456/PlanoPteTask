@@ -14,6 +14,7 @@
 		1850B451209292480013707A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850B44F209292480013707A /* LaunchScreen.storyboard */; };
 		1850B45C209292480013707A /* PlanoPteTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850B45B209292480013707A /* PlanoPteTaskTests.swift */; };
 		1850B467209292480013707A /* PlanoPteTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850B466209292480013707A /* PlanoPteTaskUITests.swift */; };
+		1850B4752092926D0013707A /* TimerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850B4742092926C0013707A /* TimerVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1850B462209292480013707A /* PlanoPteTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanoPteTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1850B466209292480013707A /* PlanoPteTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanoPteTaskUITests.swift; sourceTree = "<group>"; };
 		1850B468209292480013707A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850B4742092926C0013707A /* TimerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1850B445209292470013707A /* PlanoPteTask */ = {
 			isa = PBXGroup;
 			children = (
+				1850B4742092926C0013707A /* TimerVc.swift */,
 				1850B446209292470013707A /* AppDelegate.swift */,
 				1850B448209292470013707A /* ViewController.swift */,
 				1850B44A209292470013707A /* Main.storyboard */,
@@ -194,6 +197,11 @@
 					1850B442209292470013707A = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					1850B456209292480013707A = {
 						CreatedOnToolsVersion = 9.1;
@@ -260,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1850B449209292470013707A /* ViewController.swift in Sources */,
+				1850B4752092926D0013707A /* TimerVc.swift in Sources */,
 				1850B447209292470013707A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
